@@ -6,10 +6,11 @@ const Hero = () => {
             <Header />
             <section className="hero-section px-5 text-center mb-20">
                 <div className="flex flex-col">
-                    <div className="flex flex-col gap-6">
-                        <h1 className="title font-[Space_Grotesk] font-bold text-5xl">Nice to meet you! I'm Lucas Uzum</h1>
-                        <p className="intro text-lg">Based in Canada, I'm a photographer and video editor, passionate about making digital memories and experiences that people love.</p>
-                        <a className="uppercase underline font-[Space_Grotesk] font-semibold text-lg" href="#contact-form">Contact me</a>
+                    <div className="flex flex-col gap-8">
+                        <h1 className="title font-[Space_Grotesk] font-bold text-5xl">Nice to meet you! I'm <span className="underline decoration-yellow-300">Lucas Uzum</span>
+                        </h1>
+                        <p className="intro text-lg">Based in Canada, I'm a <span className="font-[Space_Grotesk]">photographer</span> and <span className="font-[Space_Grotesk]">videographer</span>, passionate about making digital memories and experiences that people love.</p>
+                        <a className="uppercase underline decoration-yellow-300 font-[Space_Grotesk] font-semibold text-xl hover:-translate-y-[2px] transition-all duration-250 active:translate-y-[2px]" href="#contact">Contact me</a>
                     </div>
                     <div className="personal-image-box">
                         <img className="personal-image" src="#" alt="" />

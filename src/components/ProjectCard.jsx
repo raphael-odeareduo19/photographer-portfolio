@@ -1,7 +1,12 @@
-const ProjectCard = () => {
+const ProjectCard = (props) => {
     return (
         <>
-            <div></div>
+            <div>
+                <img className="w-full" src={props.projectImg} alt="photgraphy-project" />
+                <div>
+                    <p></p>
+                </div>
+            </div>
         </>
     )
 }

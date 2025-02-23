@@ -17,8 +17,8 @@ const skills = [
 
 const Skills = () => {
     return (
-        <section className="text-center">
-            <div className="flex flex-col gap-8">
+        <section className="px-5 mb-24 text-center">
+            <div className="py-8 flex flex-col gap-8 border-y-2">
                 {skills.map((skill, i) => {
                     return (
                         <SkillCard 
