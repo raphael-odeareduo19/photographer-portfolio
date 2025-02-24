@@ -2,7 +2,7 @@ import SkillCard from "./SkillCard"
 
 const skills = [
     {
-        skillName: 'Photo Manipulation',
+        skillName: 'Graphic Design',
         skillTool: 'Photoshop',
     },
     {
@@ -18,6 +18,7 @@ const skills = [
 const Skills = () => {
     return (
         <section className="px-5 mb-24 text-center">
+            <h3 className="mb-3 uppercase font-[Space_Grotesk] font-semibold text-3xl">Skills</h3>
             <div className="py-8 flex flex-col gap-8 border-y-2">
                 {skills.map((skill, i) => {
                     return (

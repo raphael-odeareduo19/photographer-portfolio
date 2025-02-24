@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard"
 
 const projects = [
     {
-        projectImg: 'https://www.instagram.com/p/DGJO6rWSIuo/?img_index=1',
+        projectImg: '',
         projectSummary: '',
     },
     {
@@ -18,7 +18,7 @@ const projects = [
 const MainContent = () => {
     return (
         <main className="px-5">
-            <h3 className="uppercase font-[Space_Grotesk] font-semibold text-3xl">Projects</h3>
+            <h3 className="uppercase font-[Space_Grotesk] font-semibold text-3xl text-center">Projects</h3>
             <div className="flex flex-col">
                 {projects.map((project, i) => {
                     return (
