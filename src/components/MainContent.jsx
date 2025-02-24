@@ -20,9 +20,9 @@ const projects = [
 
 const MainContent = () => {
     return (
-        <main className="px-5 mb-28">
+        <main className="px-5 mb-28 md:px-10">
             <h3 className="mb-4 uppercase font-[Space_Grotesk] font-semibold text-3xl text-center">Projects</h3>
-            <div className="flex flex-col gap-12">
+            <div className="max-w-[1200px] mx-auto flex flex-col gap-12 md:grid md:grid-cols-2">
                 {projects.map((project, i) => {
                     return (
                         <ProjectCard 
