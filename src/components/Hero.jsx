@@ -7,8 +7,10 @@ const Hero = () => {
             <Header />
             <section className="hero-section px-5 text-center mb-22 md:text-left md:px-10">
                     <div className="max-w-[1200px] mx-auto flex flex-col items-center gap-10 md:flex-row md:gap-16">
-                        <div className="w-4/5 personal-image-box rounded overflow-hidden shadow-[7px_7px_0_0_white] md:order-2">
-                            <img className="w-full personal-image hover:scale-110 transition-all duration-500" src={personalPic} alt="me-smiling-while-holding-a-camera" />
+                        <div className="w-4/5 personal-image-box rounded overflow-hidden shadow-[7px_7px_0_0_white] md:order-2 cursor-pointer">
+                            <a href="https://www.instagram.com/lexarenpictures/" target="_blank">
+                                <img className="w-full personal-image hover:scale-120 transition-all duration-500" src={personalPic} alt="me-smiling-while-holding-a-camera" />
+                            </a>
                         </div>
                         <div className="textbox flex flex-col gap-8 md:w-[70%]">
                             <h1 className="title font-[Space_Grotesk] font-bold text-5xl md:text-6xl md:leading-[0.9]">Nice to meet you! I'm <span className="underline decoration-yellow-300">Lucas Uzum</span>

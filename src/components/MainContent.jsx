@@ -1,21 +1,26 @@
 import ProjectCard from "./ProjectCard"
 import project1Img from "../assets/pic2.jpeg"
-import project2Img from "../assets/pic4.jpeg"
+import project2Img from "../assets/restaurant.jpg"
+import project3Img from "../assets/kilimanjaro.jpg"
+import project4Img from "../assets/alegro.jpg"
 
 const projects = [
     {
         projectImgSrc: project1Img,
-        projectSummary: '',
+        projectLink: 'https://www.instagram.com/lexarenpictures/p/DGJO6rWSIuo/',
     },
     {
         projectImgSrc: project2Img,
-        projectSummary: '',
+        projectLink: 'https://www.instagram.com/p/DFZn1v6RmbG/?img_index=8',
     },
-    // TODO: Include different image object
-    // {
-    //     projectImgSrc: '',
-    //     projectSummary: '',
-    // }
+    {
+        projectImgSrc: project3Img,
+        projectLink: 'https://www.instagram.com/lexarenpictures/p/DFZn1v6RmbG/',
+    },
+    {
+        projectImgSrc: project4Img,
+        projectLink: 'https://www.instagram.com/lexarenpictures/p/DBxsin5RWt7/',
+    },
 ]
 
 const MainContent = () => {
