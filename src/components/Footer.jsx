@@ -21,7 +21,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-                <span className="font-[Knewave] font-black tracking-wide text-xl">Lex<span className="text-yellow-300">pics</span></span>
+                <span className="font-[Knewave] font-black tracking-wide text-xl">Lex<span className="text-yellow-300">pix</span></span>
         </footer>
     )
 }
